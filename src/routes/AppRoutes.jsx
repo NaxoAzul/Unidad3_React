@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import SportsPage from "../pages/admin/SportsPage";
 import Home from "../pages/Home";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
@@ -66,6 +67,7 @@ function AppRoutes() {
                         </ProtectedRoute>
                     }
                 >
+                    <Route path="sports" element ={<SportsPage />} />
                     <Route path="dashboard" element={<AdminDashboard />} />
                     <Route path="users" element={<UsersPage />} />
                     <Route path="profile" element={<Profile />} />

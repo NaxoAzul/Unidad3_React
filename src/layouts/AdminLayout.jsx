@@ -40,6 +40,13 @@ function AdminLayout() {
 
                         <Link
                             className="nav-link"
+                            to="/admin/sports"
+                        >
+                            Deportes
+                        </Link>
+
+                        <Link
+                            className="nav-link"
                             to="/admin/users"
 >
                             Usuarios
